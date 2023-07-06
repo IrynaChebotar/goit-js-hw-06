@@ -6,4 +6,4 @@ inputEl.addEventListener('input', onChange);
 
 function onChange() {
 textSize.style.fontSize = inputEl.value + 'px';
-}
+};

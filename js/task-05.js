@@ -7,6 +7,6 @@ function onText()  {
     if (textInput.value === "") {
         textOutput.textContent = "Anonymous"
     } else {
-        textOutput.textContent = textInput.value;
+        textOutput.textContent = textInput.value.trim();
       }
 };

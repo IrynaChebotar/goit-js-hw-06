@@ -5,7 +5,7 @@ number.addEventListener('blur', onFocus);
 const inputLength = Number(number.dataset.length);
 
 function onFocus() {
-    if (number.value.length === inputLength){
+    if (number.value.length === inputLength.trim()){
         number.classList.add('valid');
         number.classList.remove('invalid');
     } else {
